@@ -1,3 +1,5 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 # NextStep — Job Tracker & LinkedIn Saver
 
 An all-in-one job tracking web app and Chrome extension.  

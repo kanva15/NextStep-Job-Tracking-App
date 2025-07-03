@@ -99,10 +99,10 @@ By default, it runs on http://localhost:5173 (make sure CORS is allowed for your
 ```
 
 2. Load Chrome Extension
- -> Open chrome://extensions/
- ->Enable Developer mode.
- ->Click Load unpacked and select linkedin-job-extension/.
- ->Pin the extension and test on any LinkedIn job view page.
+   -> Open chrome://extensions/
+   -> Enable Developer mode.
+   -> Click Load unpacked and select linkedin-job-extension/.
+   -> Pin the extension and test on any LinkedIn job view page.
 
 
 🤝 Contributing

@@ -32,6 +32,7 @@ Keep track of your applications (Applied, Interview, Offer, Rejected) and save L
 
 ## 📦 Folder Structure
 
+```
 .
 ├── linkedin-job-extension/ # Chrome extension
 │ ├── manifest.json
@@ -59,7 +60,7 @@ Keep track of your applications (Applied, Interview, Offer, Rejected) and save L
 ├── server.js # Express entrypoint
 ├── package.json
 └── .env # Environment variables
-
+```
 ---
 
 ## 🔧 Getting Started

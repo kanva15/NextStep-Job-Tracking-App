@@ -96,6 +96,7 @@ npm install
 npm run dev
 
 By default, it runs on http://localhost:5173 (make sure CORS is allowed for your extension).
+```
 
 2. Load Chrome Extension
  -> Open chrome://extensions/
@@ -103,7 +104,6 @@ By default, it runs on http://localhost:5173 (make sure CORS is allowed for your
  ->Click Load unpacked and select linkedin-job-extension/.
  ->Pin the extension and test on any LinkedIn job view page.
 
-```
 
 🤝 Contributing
 1. Fork the repo

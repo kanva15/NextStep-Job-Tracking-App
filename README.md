@@ -106,14 +106,14 @@ By default, it runs on http://localhost:5173 (make sure CORS is allowed for your
    -> Pin the extension and test on any LinkedIn job view page.
 
 
-🤝 Contributing
+## 🤝 Contributing
 1. Fork the repo
 2. Create your feature branch (git checkout -b feature/XYZ)
 3. Commit your changes (git commit -am 'Add XYZ')
 4. Push to the branch (git push origin feature/XYZ)
 5. Open a Pull Request
 
-📄 License
+## 📄 License
 This project is MIT Licensed. Feel free to use and modify!
 
 Happy job hunting! 🚀

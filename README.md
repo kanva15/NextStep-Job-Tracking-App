@@ -32,33 +32,33 @@ Keep track of your applications (Applied, Interview, Offer, Rejected) and save L
 
 ## 📦 Folder Structure
 
-├── linkedin-job-extension/ # Chrome extension code
+.
+├── linkedin-job-extension/ # Chrome extension
 │ ├── manifest.json
-│ ├── content.js
 │ ├── background.js
+│ ├── content.js
 │ ├── popup.html
 │ └── popup.js
 ├── job-tracker-frontend/ # React + Vite frontend
 │ ├── public/
 │ ├── src/
 │ │ ├── assets/ # logo, icons
-│ │ ├── api/ # axios instances
-│ │ ├── components/
-│ │ ├── pages/ # Login, Register, Dashboard
-│ │ └── App.jsx
+│ │ ├── api/ # axios / fetch wrappers
+│ │ ├── components/ # shared UI components
+│ │ └── pages/ # Login, Register, Dashboard
+│ ├── index.html
 │ └── vite.config.js
-├── config/ # DB connection
-│ └── db.js
+├── config/ # App configuration
+│ └── db.js # MongoDB connection
 ├── models/ # Mongoose schemas
 │ ├── Application.js
 │ └── User.js
-├── routes/
+├── routes/ # Express route handlers
 │ ├── applications.js
 │ └── auth.js
 ├── server.js # Express entrypoint
 ├── package.json
-└── .env # environment variables
-
+└── .env # Environment variables
 
 ---
 

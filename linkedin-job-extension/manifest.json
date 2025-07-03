@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "NextStep",
+  "version": "1.0.0",
+  "description": "Save jobs from LinkedIn into your dashboard",
+  "permissions": ["activeTab"],
+  "host_permissions": [
+    "https://*.linkedin.com/*"
+  ],
+  "action": {
+    "default_title": "NextStep",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.linkedin.com/jobs/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}

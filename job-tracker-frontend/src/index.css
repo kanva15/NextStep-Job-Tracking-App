@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Test to see if Tailwind applies */
+body {
+  @apply bg-purple-500 text-white;
+}
